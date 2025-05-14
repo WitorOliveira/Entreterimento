@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confort - Casas e Motéis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      color: #e89cac;
+      font-weight: 700;
+    }
+
+    nav a {
+      margin-left: 1rem;
+      color: #eba1a1;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #444;
+    }
+
+    p.description {
+      text-align: center;
+      color: #777;
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: #eba1a1;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1rem;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .card-desc {
+      color: #666;
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      background-color: #2e2e2e;
+      color: #fff;
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+
+    footer p, footer a {
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+
+    footer .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+
+    footer h3 {
+      color: #f0a8b8;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Confort</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Explore Ambientes Exclusivos</h2>
+    <p class="description">Descubra motéis e casas de entretenimento com conforto, privacidade e experiências únicas.</p>
+
+    <div class="grid">
+      <a class="card" href="com-charme.html">
+        <img src="img/comcharme.png" alt="Motel Com Charme">
+        <div class="card-body">
+          <div class="card-title">Motel Com Charme</div>
+          <div class="card-desc">Uma experiência única de conforto, privacidade e sofisticação para momentos especiais.</div>
+        </div>
+      </a>
+
+      <a class="card" href="tiazinha.html">
+        <img src="img/tiazinha.png" alt="Tiazinha">
+        <div class="card-body">
+          <div class="card-title">Tiazinha</div>
+          <div class="card-desc">Ambiente reservado, perfeito para encontros que exigem discrição e conforto.</div>
+        </div>
+      </a>
+
+      <a class="card" href="love-night.html">
+        <img src="img/Love.png" alt="Love Night">
+        <div class="card-body">
+          <div class="card-title">Love Night</div>
+          <div class="card-desc">O lugar ideal para noites inesquecíveis com serviços pensados para o bem-estar do casal.</div>
+        </div>
+      </a>
+
+      <a class="card" href="kamasutra.html">
+        <img src="img/Ju.png" alt="Kamasutra">
+        <div class="card-body">
+          <div class="card-title">Kamasutra</div>
+          <div class="card-desc">Suítes temáticas e atmosfera envolvente para quem busca novas sensações.</div>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h3>Confort</h3>
+        <p>Encontre os melhores lugares para momentos especiais com privacidade e elegância.</p>
+      </div>
+
+      <div>
+        <h3>Contato</h3>
+        <p>Email: Alagoinhas@confort.com</p>
+        <p>WhatsApp: (75) 9-4002-8922</p>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top:2rem; color: #999;">© 2025 Confort. Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
